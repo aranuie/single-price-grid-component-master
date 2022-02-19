@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(204, 43%, 93%);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: hsl(204, 43%, 93%);
+    line-height: 22px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px #6666665e;
+    color: white;
+    font-weight: 700;
+    background: hsl(71, 73%, 54%);
+    padding: 15px 40px 15px 40px;
+    text-decoration: none;
+    margin: 10% 0 0 0;
+}
+
+.btn:hover {
+    background: hsl(175, 73%, 54%);
+    transition: .5s;
+    text-decoration: none;
+}
+
+main {
+    width: 320px;
+    margin: 10% auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    height: auto;
+    padding: 7%;
+}
+
+#one {
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#one p {
+    margin: 0;
+}
+
+#two {
+    background-color: hsl(179, 62%, 43%);
+}
+
+#three {
+    background-color: hsl(179, 47%, 52%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#p1 {
+
+    color: hsla(203, 44%, 93%, 0.521);
+    margin-bottom: 2%;
+}
+
+#two p span {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    padding-right: 4%;
+}
+
+#p1,
+#two p span {
+    display: flex;
+    align-items: center;
+}
+
+#p2 {
+    color: hsl(204, 43%, 93%);
+    margin-top: 0;
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+    font-size: 1.2em;
+    margin: 0 0 8% 0;
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1em;
+    margin: 0 0 8% 0;
+}
+
+h4 {
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0 8% 0;
+}
+
+#one p {
+    color: hsl(218, 22%, 67%);
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.attribution a {
+    color: hsl(179, 62%, 43%);
+}
+
+@media screen and (min-width: 1080px) {
+    main {
+        width: 700px;
+        margin: 10% auto auto auto;
+        display: flex;
+        flex-flow: row wrap;
+        box-shadow: 0 9px 19px 0 rgba(102, 102, 102, 0.247);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    ul {
+        font-size: 0.9em;
+    }
+
+    #two {
+        border-bottom-left-radius: 5px;
+    }
+
+    #three {
+        border-bottom-left-radius: 0px;
+    }
+
+    #two,
+    #three {
+        width: 280px;
+    }
+
+    h2 {
+        margin: 0 0 3% 0;
+        font-size: 1.5em;
+    }
+
+    h3 {
+        margin: 0 0 3% 0;
+        font-size: 1.1em;
+    }
+
+    .block {
+        height: auto;
+        padding: 5%;
+    }
+
+    #one p {
+        font-size: 1.1em;
+    }
+
+    #p2 {
+        font-size: 1.1em;
+        margin: 2% 0 8% 0;
+    }
+
+    .btn {
+        margin: 15% 5% 0 0;
+        font-size: 1.1em;
+    }
+
+}
