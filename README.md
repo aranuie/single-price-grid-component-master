@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/single-price-grid-challenge-using-css-flexbox--PohEg7B2)
 - Live Site URL: [Live Site URL](https://aranuie.github.io/single-price-grid-component-master/)
 
 ## My process
